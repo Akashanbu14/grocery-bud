@@ -1,0 +1,111 @@
+
+.delete-btn{
+    cursor:pointer;
+}
+#gu{
+    background-color: rgb(40, 90, 120);
+}
+.section-container{
+    text-align: center;
+    padding: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color:white;
+    margin-left: 38%;
+    margin-top:15rem;
+    border-radius: 5px;
+}
+
+body{
+    line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+h1,
+h2,
+h3,
+h4{
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+p{
+    margin-bottom: 1.25rem;
+}
+.section-center{
+    padding: 2rem;
+}
+.alert{
+    margin-bottom: 1rem;
+    height:1.25rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    text-size-adjust: 0.7rem;
+    border-radius: 0.025rem;
+    text-transform:capitalize;
+}
+.alert-danger{
+    color:hsl(0, 100%, 50%);
+    background: #bba0b8;
+}
+.alert-sucess{
+    color:green;
+    background: rgb(134, 185, 134);
+}
+.grocery-form h3{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+#grocery{
+    padding: 0.25rem;
+    padding-left: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 1rem;
+    border-color: transparent;
+    flex: 1 0 auto;
+    background-color: aliceblue;
+}
+.submit-btn{
+    background-color: rgb(135, 212, 235);
+    border-color:transparent;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.grocery-container{
+    margin-top: 2rem;
+    visibility: hidden;
+}
+.show-container{
+    visibility: visible;
+}
+.grocery-item{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    margin-bottom:0.5rem;
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
